@@ -16,9 +16,7 @@ import {
 import { useState, useEffect } from "react";
 import {
   MainContainer,
-  FixedButtonContainer,
   ThemeToggleContainer,
-  CallButton,
   ThemeButton,
   HeaderSection,
   HeaderContainer,
@@ -50,7 +48,6 @@ import {
   MapCard,
   MapImageContainer,
   MapImage,
-  MapOverlay,
   MapCaption,
   MapCaptionText,
   ContactCard,
@@ -88,9 +85,9 @@ const Index = () => {
     window.location.href = "tel:818-588-2183";
   };
 
-  const handleEmail = () => {
-    window.location.href = "mailto:Menditappliance@gmail.com";
-  };
+//   const handleEmail = () => {
+//     window.location.href = "mailto:Menditappliance@gmail.com";
+//   };
 
   const toggleTheme = () => {
     setDarkMode(!darkMode);
