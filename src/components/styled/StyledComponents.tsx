@@ -67,6 +67,13 @@ export const ThemeButton = styled.button<{ darkMode: boolean }>`
   cursor: pointer;
   backdrop-filter: blur(4px);
   transition: all 0.3s ease;
+  outline: none;
+  box-shadow: none;
+
+  &:focus {
+    outline: none;
+    /* box-shadow: 0 0 0 3px #f97316; */
+  }
 
   svg {
     width: 1.25rem;
@@ -138,6 +145,13 @@ export const HeaderCallButton = styled.button`
   font-size: 1.125rem;
   font-weight: 600;
   transition: all 0.3s ease;
+  outline: none;
+  box-shadow: none;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #f97316;
+  }
 
   &:hover {
     background: #ea580c;
@@ -421,6 +435,13 @@ export const ContactButton = styled.button`
   font-size: 1rem;
   font-weight: 600;
   transition: all 0.3s ease;
+  outline: none;
+  box-shadow: none;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #f97316;
+  }
 
   &:hover {
     background: #ea580c;
@@ -467,6 +488,13 @@ export const ModalCloseButton = styled.button<{ darkMode: boolean }>`
   cursor: pointer;
   backdrop-filter: blur(4px);
   transition: all 0.3s ease;
+  outline: none;
+  box-shadow: none;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #f97316;
+  }
 
   &:hover {
     background: ${(props) => (props.darkMode ? "#374151" : "#fff")};
