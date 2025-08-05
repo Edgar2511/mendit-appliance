@@ -81,9 +81,9 @@ import {
       }
     }, [darkMode]);
   
-    const handleCall = () => {
-      window.location.href = "tel:818-588-2183";
-    };
+    // const handleCall = () => {
+    //   window.location.href = "tel:818-588-2183";
+    // };
   
   //   const handleEmail = () => {
   //     window.location.href = "mailto:Menditappliance@gmail.com";
